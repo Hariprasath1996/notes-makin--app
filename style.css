@@ -30,7 +30,7 @@ body{
     padding: 0.5rem;
     line-height: 2rem;
 }
-#btn{
+#delete-btn{
     width: 5rem;
     height: auto;
     padding: 0.5rem;
@@ -48,4 +48,48 @@ position: fixed;
 bottom: 100px;
 right: 100px;
 }
-
+#popup-box{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding :2rem 1rem 1rem 1rem ;
+    gap: 1rem;
+    width: 20rem;
+    position: absolute;
+    left: 50rem;
+    bottom: 25rem;
+}
+#book-title-input{
+    padding: 0.5rem;
+    width: 15rem;
+    height: auto;
+}
+#author-name-input{
+    padding: 0.5rem;
+    width: 15rem;
+    height: auto;
+}
+#description{
+    padding: 0.5rem;
+    width: 15rem;
+    height: auto;
+}
+#sub-popup-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+#btn-add{
+    width: 5rem;
+    height: auto;
+    padding: 0.5rem;
+}
+#btn-remove{
+    width: 5rem;
+    height: auto;
+    padding: 0.5rem;
+}

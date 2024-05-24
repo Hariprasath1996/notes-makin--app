@@ -15,15 +15,24 @@ body{
     padding:1rem;
     color: white;
 }
-#container{
-    width: 25%;
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height:auto;
+}
+.book-container{
+    display: inline-block;
+    width: 20%;
     height: auto;
+    background-color: rgb(106, 76, 161);
     padding: 2rem;
     line-height: 2rem;
-    background-color: rgb(106, 76, 161);
     margin-top: 1rem;
     margin-left: 1rem;
-    gap: 2rem;
+    gap: 5rem;
+
 }
 #title{
     padding: 0.5rem;
@@ -38,11 +47,10 @@ body{
     line-height: 2rem;
     color: white;
 }
-#delete-btn{
+.delete-btn{
     width: 5rem;
     height: auto;
     padding:0.5rem;
-
 }
 #popup-btn{
 background-color: rgb(106, 76, 161);
